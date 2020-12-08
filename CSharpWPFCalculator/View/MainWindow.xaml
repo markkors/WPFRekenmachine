@@ -86,8 +86,8 @@
                     <Button Command="{Binding NumberButtonCmd}" CommandParameter="-" Grid.Column="0" Grid.Row="1" Content="-" Margin="10" FontSize="48" FontWeight="Bold"/>
                     <Button Command="{Binding NumberButtonCmd}" CommandParameter="+" Grid.Column="0" Grid.Row="2" Grid.RowSpan="2" Content="+" Margin="10" FontSize="48" FontWeight="Bold"/>
                     <Button Command="{Binding NumberButtonCmd}" CommandParameter="/" Grid.Column="1" Grid.Row="0" Content="÷" Margin="10" FontSize="48" FontWeight="Bold"/>
-                    <Button Command="{Binding NumberButtonCmd}" CommandParameter="?" Grid.Column="1" Grid.Row="1" Content="√" Margin="10" FontSize="48" FontWeight="Bold"/>
-                    <Button Command="{Binding NumberButtonCmd}" CommandParameter="%" Grid.Column="1" Grid.Row="2" Content="%" Margin="10" FontSize="48" FontWeight="Bold"/>
+                    <Button Command="{Binding SpecialOperatorButtonCmd}" CommandParameter="SQRT" Grid.Column="1" Grid.Row="1" Content="√" Margin="10" FontSize="48" FontWeight="Bold"/>
+                    <Button Command="{Binding SpecialOperatorButtonCmd}" CommandParameter="PERC" Grid.Column="1" Grid.Row="2" Content="%" Margin="10" FontSize="48" FontWeight="Bold"/>
                     <Button Command="{Binding EqualButtonCmd}" CommandParameter="=" Grid.Column="1" Grid.Row="3" Content="=" Margin="10" FontSize="48" FontWeight="Bold"/>
                 </Grid>
             </Grid>
